@@ -1,0 +1,24 @@
+.navbar {
+  display: flex;
+  flex-direction: row;
+  color: blue;
+  text-decoration: underline;
+  height: 1000px;
+}
+
+h4 {
+  margin-left: 2%;
+}
+#root {
+  background-color: pink;
+  margin: 0%;
+  padding: 0;
+  border: 0;
+}
+body {
+  margin: 0;
+}
+
+#contact {
+  position: relative;
+}
