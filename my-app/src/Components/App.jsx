@@ -1,6 +1,7 @@
 import React, { useState, useEffect } from "react";
 import Navbar from "./Navbar";
 import Contact from "./Contact";
+import MyImage from "./MyImage";
 
 function App() {
   // const [showNavBar, setShowNavBar] = useState(false);
@@ -16,6 +17,7 @@ function App() {
     <div>
       {/* {showNavBar ? <Navbar /> : null} */}
       <Navbar />
+      <MyImage />
       <Contact />
     </div>
   );

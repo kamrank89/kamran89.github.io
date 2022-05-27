@@ -1,0 +1,25 @@
+body {
+  margin: 0;
+  background-color: black;
+}
+
+.navbar {
+  color: white;
+}
+ul.navbar-content {
+  display: flex;
+  flex-direction: row;
+  list-style-type: none;
+  padding: 0;
+  color: white;
+}
+ul li {
+  padding: 16px;
+}
+
+#contact {
+  color: white;
+}
+img {
+  border-radius: 50%;
+}
