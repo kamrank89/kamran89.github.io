@@ -1,24 +1,14 @@
 import React, { useState, useEffect } from "react";
-import Navbar from "./Navbar";
-import Contact from "./Contact";
-import MyImage from "./MyImage";
+import SectionOne from "./Section1";
+
+import Education from "./Education";
 
 function App() {
-  // const [showNavBar, setShowNavBar] = useState(false);
-
-  // useEffect(() => {
-  //   const timer = setTimeout(() => {
-  //     setShowNavBar(true);
-  //   }, 5000);
-  //   return () => clearTimeout(timer);
-  // }, []);
-
   return (
     <div>
-      {/* {showNavBar ? <Navbar /> : null} */}
-      <Navbar />
-      <MyImage />
-      <Contact />
+      <SectionOne />
+
+      <Education />
     </div>
   );
 }

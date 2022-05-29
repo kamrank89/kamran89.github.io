@@ -3,14 +3,34 @@ body {
   background-color: black;
 }
 
-.navbar {
-  color: white;
+/* Section 1 items */
+/* Item 1 */
+#sectionone {
+  margin: 10%;
 }
-ul.navbar-content {
-  display: flex;
-  flex-direction: row;
-  list-style-type: none;
-  padding: 0;
+
+#sectionone .item1 {
+  margin: 10%;
+}
+#sectionone h1 {
+  color: white;
+  text-align: center;
+  font-size: 3rem;
+  font-family: "Rubik", sans-serif;
+  font-weight: 900;
+  max-width: 100%;
+}
+#sectionone .item2 p {
+  max-width: 100%;
+}
+/* Item 2 */
+#sectionone img {
+  border-radius: 50%;
+  float: right;
+  max-width: 100%;
+}
+
+#sectionone p {
   color: white;
 }
 ul li {
@@ -20,6 +40,11 @@ ul li {
 #contact {
   color: white;
 }
-img {
-  border-radius: 50%;
+.education {
+  color: white;
+}
+.education.items ul {
+  display: flex;
+  list-style-type: none;
+  color: white;
 }
