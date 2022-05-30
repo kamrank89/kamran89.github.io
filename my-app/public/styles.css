@@ -5,6 +5,7 @@ body {
 
 /* Section 1 items */
 /* Item 1 */
+
 #sectionone {
   margin: 10%;
 }
@@ -13,26 +14,33 @@ body {
   margin: 10%;
 }
 #sectionone h1 {
+  animation: textgrowth 1s infinite alternate;
   color: white;
-  text-align: center;
+  text-align: cen
+  ter;
   font-size: 3rem;
   font-family: "Rubik", sans-serif;
   font-weight: 900;
   max-width: 100%;
 }
-#sectionone .item2 p {
-  max-width: 100%;
-}
+/* #sectionone h1:hover {
+  font-size: 10rem;
+} */
+
 /* Item 2 */
 #sectionone img {
   border-radius: 50%;
-  float: right;
+
   max-width: 100%;
 }
-
-#sectionone p {
+#sectionone .item2 {
+  display: flex;
+}
+#sectionone .item2 p {
+  max-width: 100%;
   color: white;
 }
+
 ul li {
   padding: 16px;
 }

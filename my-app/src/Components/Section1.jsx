@@ -8,10 +8,10 @@ function SectionOne() {
       </div>
       <div className="item2">
         <div>
-          <img src={require("./Images/kamran.jpg")} alt="can not be loaded" />
+          <p>lorsdddsdsdsadasdasdasdasdasdasdasdadasdasdsdde</p>
         </div>
         <div>
-          <p>lore</p>
+          <img src={require("./Images/kamran.jpg")} alt="can not be loaded" />
         </div>
       </div>
     </div>
