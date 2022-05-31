@@ -4,55 +4,56 @@ body {
 }
 
 /* Section 1 items */
-/* Item 1 */
+/* Section 1 Item 1 */
 
 #sectionone {
   margin: 10%;
+  max-width: 100%;
 }
 
 #sectionone .item1 {
   margin: 10%;
 }
 #sectionone h1 {
-  animation: textgrowth 1s infinite alternate;
   color: white;
-  text-align: cen
-  ter;
+  text-align: center;
   font-size: 3rem;
   font-family: "Rubik", sans-serif;
   font-weight: 900;
-  max-width: 100%;
 }
-/* #sectionone h1:hover {
-  font-size: 10rem;
-} */
 
-/* Item 2 */
+/* Section 1 Item 2 */
+
 #sectionone img {
   border-radius: 50%;
-
-  max-width: 100%;
 }
 #sectionone .item2 {
   display: flex;
 }
 #sectionone .item2 p {
+  color: white;
   max-width: 100%;
+  line-height: 2;
+  font-size: large;
+}
+#sectionone .item2 .img {
+  display: block;
+  max-width: 100%;
+}
+
+/* Section 2 Items */
+#section2 {
+  max-width: 100%;
+  margin: 10%;
   color: white;
 }
 
-ul li {
-  padding: 16px;
-}
-
-#contact {
-  color: white;
-}
-.education {
-  color: white;
-}
-.education.items ul {
-  display: flex;
-  list-style-type: none;
-  color: white;
+@media screen and (max-width: 500px) {
+  #sectionone .item2 {
+    display: block;
+    margin: 2%;
+  }
+  #sectionone {
+    margin: 1%;
+  }
 }
