@@ -1,6 +1,10 @@
+:root {
+  --background: #1d1d1d;
+  --content: #bebebe;
+}
 body {
   margin: 0;
-  background-color: black;
+  background-color: var(--background);
 }
 
 /* Animations Key frames */
@@ -27,7 +31,7 @@ body {
 #sectionone {
   margin: 2% 10%;
   max-width: 100%;
-  color: white;
+  color: var(--content);
   text-align: center;
   font-family: "Rubik", sans-serif;
 }
@@ -36,7 +40,7 @@ body {
   margin: 10%;
 }
 #sectionone .item1 h1 {
-  color: white;
+  color: var(--content);
   text-align: center;
   font-size: 3rem;
   font-family: "Rubik", sans-serif;
@@ -54,7 +58,7 @@ body {
   animation: 10s anim-lineUp ease-in 1;
 }
 #sectionone .item2 p {
-  color: white;
+  color: var(--content);
   max-width: 100%;
   line-height: 3;
   font-size: large;
@@ -74,7 +78,7 @@ body {
 #section2 {
   max-width: 100%;
   margin: 0% 10%;
-  color: white;
+  color: var(--content);
   text-align: center;
   justify-content: center;
 }
@@ -121,6 +125,13 @@ body {
   line-height: 4rem;
 }
 
+/* -------------------- Section 3 -------------------- */
+
+#section3 {
+  color: var(--content);
+}
+
+/* -------------------- Transition Classes -------------------- */
 .reveal {
   position: relative;
   transform: translateY(150px);
@@ -133,7 +144,7 @@ body {
   opacity: 1;
 }
 
-/* --------------------- Scroll Bar ---------------------- */
+/* -------------------- Scroll Bar -------------------- */
 ::-webkit-scrollbar {
   width: 20px;
 }
