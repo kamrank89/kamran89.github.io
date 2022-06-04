@@ -52,6 +52,7 @@ body {
 
 #sectionone img {
   border-radius: 50%;
+  justify-content: center;
 }
 #sectionone .item2 {
   display: flex;
