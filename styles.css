@@ -52,6 +52,7 @@ body {
 
 #sectionone img {
   border-radius: 50%;
+  justify-content: center;
 }
 #sectionone .item2 {
   display: flex;
@@ -130,7 +131,10 @@ body {
 #section3 {
   color: var(--content);
 }
-
+#section3 .item1 {
+  font-size: 5rem;
+  text-align: center;
+}
 /* -------------------- Transition Classes -------------------- */
 .reveal {
   position: relative;

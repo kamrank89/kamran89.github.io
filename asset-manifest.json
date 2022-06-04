@@ -1,13 +1,13 @@
 {
   "files": {
-    "main.js": "/kamran89.github.io/static/js/main.15fe1017.js",
+    "main.js": "/kamran89.github.io/static/js/main.a6642c13.js",
     "static/media/Acc.jpg": "/kamran89.github.io/static/media/Acc.b959379362d964d73c6e.jpg",
     "static/media/kamran.jpg": "/kamran89.github.io/static/media/kamran.b9437a947afb5d673892.jpg",
     "static/media/SNHU.png": "/kamran89.github.io/static/media/SNHU.9f6283b7b6d9b3a4fa31.png",
     "index.html": "/kamran89.github.io/index.html",
-    "main.15fe1017.js.map": "/kamran89.github.io/static/js/main.15fe1017.js.map"
+    "main.a6642c13.js.map": "/kamran89.github.io/static/js/main.a6642c13.js.map"
   },
   "entrypoints": [
-    "static/js/main.15fe1017.js"
+    "static/js/main.a6642c13.js"
   ]
 }
