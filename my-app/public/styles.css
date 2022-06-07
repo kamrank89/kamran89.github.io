@@ -4,11 +4,12 @@
 @import url(./Contact.css);
 @import url(./Section3.css);
 @import url(./Card.css);
-
+@import url(./Email.css);
 :root {
   --background: #1d1d1d;
   --content: #bebebe;
   --test: #c7b018;
+  --white: white;
 }
 body {
   margin: 0;

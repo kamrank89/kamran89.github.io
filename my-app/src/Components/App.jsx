@@ -2,6 +2,7 @@ import Contact from "./Contact";
 import SectionOne from "./Section1";
 import Education from "./Section2";
 import Skills from "./Section3";
+import Email from "./Email";
 
 function App() {
   return (
@@ -10,6 +11,7 @@ function App() {
       <SectionOne />
       <Education />
       <Skills />
+      <Email />
     </div>
   );
 }
