@@ -5,6 +5,7 @@
 @import url(./Section3.css);
 @import url(./Card.css);
 @import url(./Email.css);
+@import url(./Section4.css);
 :root {
   --background: #1d1d1d;
   --content: #bebebe;
