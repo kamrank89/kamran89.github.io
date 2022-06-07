@@ -3,6 +3,7 @@
 @import url(./Section2.css);
 @import url(./Contact.css);
 @import url(./Section3.css);
+@import url(./Card.css);
 
 :root {
   --background: #1d1d1d;
