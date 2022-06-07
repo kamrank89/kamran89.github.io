@@ -1,6 +1,6 @@
 import React from "react";
 
-function SectionOne() {
+const SectionOne = () => {
   return (
     <div id="sectionone">
       {/* Item 1 */}
@@ -43,5 +43,5 @@ function SectionOne() {
       </div>
     </div>
   );
-}
+};
 export default SectionOne;

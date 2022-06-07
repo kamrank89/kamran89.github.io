@@ -1,6 +1,6 @@
 import React from "react";
 
-function reveal() {
+const reveal = () => {
   var reveals = document.querySelectorAll(".reveal");
 
   for (var i = 0; i < reveals.length; i++) {
@@ -14,11 +14,11 @@ function reveal() {
       reveals[i].classList.remove("active");
     }
   }
-}
+};
 
 window.addEventListener("scroll", reveal);
 
-function Education() {
+const Education = () => {
   return (
     <section id="section2">
       <h1 className="reveal">Education</h1>
@@ -56,5 +56,5 @@ function Education() {
       </div>
     </section>
   );
-}
+};
 export default Education;

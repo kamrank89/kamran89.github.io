@@ -1,0 +1,30 @@
+/* --------------------  Contact -------------------- */
+.contact {
+  color: var(--content);
+  position: sticky;
+  top: 50%;
+}
+
+.contact ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  border: 2px solid var(--test);
+  text-align: center;
+  align-items: center;
+  width: 50px;
+  background-color: var(--background);
+}
+.contact li {
+  color: var(--content);
+  top: 50%;
+  line-height: 3rem;
+  text-decoration: none;
+}
+.contact a {
+  color: var(--content);
+}
+.contact li:hover {
+  background-color: #555;
+  color: white;
+}
