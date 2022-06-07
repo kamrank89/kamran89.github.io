@@ -1,0 +1,19 @@
+/* -------------------- Section 3 -------------------- */
+
+#section3 {
+  margin: 0 10%;
+  color: var(--content);
+}
+#section3 .item1 h1 {
+  font-size: 6rem;
+  text-align: center;
+  padding-bottom: 1%;
+}
+#section3 .item1 p {
+  font-size: 1.5rem;
+  text-align: center;
+  padding-bottom: 3%;
+}
+#section3 .item2 {
+  justify-content: center;
+}

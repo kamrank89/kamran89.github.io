@@ -1,6 +1,16 @@
+@import "~bootstrap/scss/bootstrap.scss";
+@import "./Section1.css";
+@import url(./Section2.css);
+@import url(./Contact.css);
+@import url(./Section3.css);
+@import url(./Card.css);
+@import url(./Email.css);
+@import url(./Section4.css);
 :root {
   --background: #1d1d1d;
   --content: #bebebe;
+  --test: #c7b018;
+  --white: white;
 }
 body {
   margin: 0;
@@ -25,116 +35,11 @@ body {
     transform: translateY(0%);
   }
 }
-/* --------------------  Section 1 items -------------------- */
-/* Section 1 Item 1 */
-
-#sectionone {
-  margin: 2% 10%;
-  max-width: 100%;
-  color: var(--content);
-  text-align: center;
-  font-family: "Rubik", sans-serif;
+/* --------------------  App -------------------- */
+.app {
+  overflow: visible;
 }
 
-#sectionone .item1 {
-  margin: 10%;
-}
-#sectionone .item1 h1 {
-  color: var(--content);
-  text-align: center;
-  font-size: 3rem;
-  font-family: "Rubik", sans-serif;
-  font-weight: 900;
-  animation: 4s anim-lineUp ease-in 1;
-}
-
-/* Section 1 Item 2 */
-
-#sectionone img {
-  border-radius: 50%;
-  justify-content: center;
-}
-#sectionone .item2 {
-  display: flex;
-  animation: 10s anim-lineUp ease-in 1;
-}
-#sectionone .item2 p {
-  color: var(--content);
-  max-width: 100%;
-  line-height: 3;
-  font-size: large;
-}
-/* #sectionone .item2 p:hover {
-  font-size: x-large;
-} */
-#sectionone .item2 .img {
-  display: block;
-  max-width: 100%;
-}
-
-/* -------------------- Section 2 Items --------------------*/
-
-/* Item 1 */
-
-#section2 {
-  max-width: 100%;
-  margin: 0% 10%;
-  color: var(--content);
-  text-align: center;
-  justify-content: center;
-}
-
-#section2 .item1 {
-  display: flex;
-  /* padding-bottom: 5%; */
-  justify-content: center;
-  max-width: 100%;
-
-  margin-left: 2%;
-}
-#section2 h1 {
-  text-align: center;
-  font-size: 4rem;
-  padding-bottom: 5%;
-  padding-top: 5%;
-}
-
-#section2 .item1 .content {
-  text-align: center;
-  font-size: x-large;
-  padding-left: 2%;
-  line-height: 4rem;
-}
-#section2 .item1 img {
-  float: left;
-  border-radius: 50%;
-}
-
-/* Item 2 */
-#section2 .item2 {
-  max-width: 100%;
-  display: flex;
-  justify-content: center;
-}
-#section2 .item2 img {
-  border-radius: 50%;
-}
-#section2 .item2 .content {
-  text-align: center;
-  font-size: x-large;
-  padding-right: 2%;
-  line-height: 4rem;
-}
-
-/* -------------------- Section 3 -------------------- */
-
-#section3 {
-  color: var(--content);
-}
-#section3 .item1 {
-  font-size: 5rem;
-  text-align: center;
-}
 /* -------------------- Transition Classes -------------------- */
 .reveal {
   position: relative;
@@ -163,7 +68,9 @@ body {
 ::-webkit-scrollbar-thumb:hover {
   background-color: darkgrey;
 }
-/* Media  */
+
+/* -------------------- Media -------------------- */
+
 @media screen and (max-width: 500px) {
   #sectionone .item2 {
     display: block;
@@ -171,5 +78,18 @@ body {
   }
   #sectionone {
     margin: 1%;
+  }
+  .contact {
+    position: sticky;
+    top: 0;
+    padding-left: 35vw;
+  }
+  .contact ul {
+    display: flex;
+    width: 120px;
+    justify-content: center;
+  }
+  .contact li {
+    padding: 0 2%;
   }
 }

@@ -1,0 +1,52 @@
+/* -------------------- Section 2 Items --------------------*/
+
+/* Item 1 */
+
+#section2 {
+  max-width: 100%;
+  margin: 10% 10%;
+  color: var(--content);
+  text-align: center;
+  justify-content: center;
+}
+
+#section2 .item1 {
+  display: flex;
+  /* padding-bottom: 5%; */
+  justify-content: center;
+  max-width: 100%;
+
+  margin-left: 2%;
+}
+#section2 h1 {
+  text-align: center;
+  font-size: 4rem;
+  padding-bottom: 5%;
+}
+
+#section2 .item1 .content {
+  text-align: center;
+  font-size: x-large;
+  padding-left: 2%;
+  line-height: 4rem;
+}
+#section2 .item1 img {
+  float: left;
+  border-radius: 50%;
+}
+
+/* Item 2 */
+#section2 .item2 {
+  max-width: 100%;
+  display: flex;
+  justify-content: center;
+}
+#section2 .item2 img {
+  border-radius: 50%;
+}
+#section2 .item2 .content {
+  text-align: center;
+  font-size: x-large;
+  padding-right: 2%;
+  line-height: 4rem;
+}

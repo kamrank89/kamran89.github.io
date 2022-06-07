@@ -1,0 +1,48 @@
+/* --------------------  Section 1 items -------------------- */
+/* Section 1 Item 1 */
+
+#sectionone {
+  margin: 2% 10%;
+  max-width: 100%;
+  color: var(--content);
+  text-align: center;
+  font-family: "Rubik", sans-serif;
+  position: relative;
+}
+
+#sectionone .item1 {
+  margin: 2% 10%;
+}
+#sectionone .item1 h1 {
+  color: var(--content);
+  text-align: center;
+  font-size: 3rem;
+  font-family: "Rubik", sans-serif;
+  font-weight: 900;
+  animation: 1.5s anim-lineUp ease-in 1;
+}
+
+/* Section 1 Item 2 */
+
+#sectionone img {
+  border-radius: 50%;
+  justify-content: center;
+}
+#sectionone .item2 {
+  padding-top: 3%;
+  display: flex;
+  animation: 5s anim-lineUp ease-in 1;
+}
+#sectionone .item2 p {
+  color: var(--content);
+  max-width: 100%;
+  line-height: 3;
+  font-size: large;
+}
+/* #sectionone .item2 p:hover {
+    font-size: x-large;
+  } */
+#sectionone .item2 .img {
+  display: block;
+  max-width: 100%;
+}
