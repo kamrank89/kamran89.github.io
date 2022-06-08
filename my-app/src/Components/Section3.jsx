@@ -12,7 +12,6 @@ const Skills = () => {
           <div class="row gx-5 gy-5">
             <div class="col">
               <Card
-                link="https://github.com/kamrank89/Python-Game"
                 img={require("./Images/Python.png")}
                 title="Python "
                 content="proficient in coding with python. familiar with OOP programing . "

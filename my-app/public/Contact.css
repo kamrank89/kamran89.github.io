@@ -28,3 +28,10 @@
   background-color: #555;
   color: white;
 }
+
+/* -------------------- Media ------------------- */
+@media screen and (max-width: 500px) {
+  .contact ul {
+    width: 40px;
+  }
+}

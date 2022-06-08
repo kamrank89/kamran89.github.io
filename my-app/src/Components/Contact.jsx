@@ -15,7 +15,9 @@ const Contact = () => {
           </a>
         </li>
         <li>
-          <i class="fa-solid fa-envelope fa-2x"></i>
+          <a href="#email">
+            <i class="fa-solid fa-envelope fa-2x"></i>
+          </a>
         </li>
       </ul>
     </div>
