@@ -1,20 +1,36 @@
 #email {
-  color: white;
+  color: var(--content);
   width: 50%;
   height: auto;
   background-color: var(--background);
   margin-left: 25%;
 }
 
+#email h1 {
+  text-align: center;
+  padding-bottom: 20px;
+}
 .label {
-  color: white;
+  color: var(--content);
 }
 
-.from {
-  border: 10px solid black;
-  background-color: black;
-  display: block;
-}
 .form input {
   width: 100%;
+  background-color: var(--content);
+}
+
+.form textarea {
+  resize: none;
+  background-color: var(--content);
+  width: 100%;
+}
+.form textarea:focus {
+  background-color: white;
+}
+
+.form input[type="submit"]:hover {
+  background-color: white;
+}
+.form input[type="text"]:focus {
+  background-color: white;
 }
