@@ -1,24 +1,29 @@
 {
   "files": {
     "main.css": "/kamran89.github.io/static/css/main.e7720ab7.css",
-    "main.js": "/kamran89.github.io/static/js/main.b03b2ae0.js",
+    "main.js": "/kamran89.github.io/static/js/main.e3fd5972.js",
     "static/media/Python.png": "/kamran89.github.io/static/media/Python.91b7f30f1c7af88174e0.png",
     "static/media/Office.png": "/kamran89.github.io/static/media/Office.a19974f8c575929060ca.png",
     "static/media/C++.png": "/kamran89.github.io/static/media/C++.9c8012aff0dd3bd2abae.png",
     "static/media/Java.png": "/kamran89.github.io/static/media/Java.2f93a09619a236a2d01a.png",
+    "static/media/Netflix.JPG": "/kamran89.github.io/static/media/Netflix.9cf955af799ae1c5ad6a.JPG",
     "static/media/Acc.jpg": "/kamran89.github.io/static/media/Acc.b959379362d964d73c6e.jpg",
+    "static/media/AlienInvasion.JPG": "/kamran89.github.io/static/media/AlienInvasion.5998b0b79986d0795c28.JPG",
     "static/media/kamran.jpg": "/kamran89.github.io/static/media/kamran.b9437a947afb5d673892.jpg",
+    "static/media/TinDog.JPG": "/kamran89.github.io/static/media/TinDog.c81b5283144dfb1efdf4.JPG",
+    "static/media/andstudio.JPG": "/kamran89.github.io/static/media/andstudio.c573d4836c54da912ed1.JPG",
     "static/media/JS.png": "/kamran89.github.io/static/media/JS.31c81075366a39d39b47.png",
+    "static/media/SimonGame.JPG": "/kamran89.github.io/static/media/SimonGame.1248eefc0f865f349a61.JPG",
     "static/media/htmlcss.png": "/kamran89.github.io/static/media/htmlcss.d24dbc00ac560e1f220a.png",
     "static/media/SNHU.png": "/kamran89.github.io/static/media/SNHU.9f6283b7b6d9b3a4fa31.png",
     "static/media/Git.png": "/kamran89.github.io/static/media/Git.305be34a91099bc3c999.png",
     "static/media/Githubtext.png": "/kamran89.github.io/static/media/Githubtext.6149aa5ccbc036755594.png",
     "index.html": "/kamran89.github.io/index.html",
     "main.e7720ab7.css.map": "/kamran89.github.io/static/css/main.e7720ab7.css.map",
-    "main.b03b2ae0.js.map": "/kamran89.github.io/static/js/main.b03b2ae0.js.map"
+    "main.e3fd5972.js.map": "/kamran89.github.io/static/js/main.e3fd5972.js.map"
   },
   "entrypoints": [
     "static/css/main.e7720ab7.css",
-    "static/js/main.b03b2ae0.js"
+    "static/js/main.e3fd5972.js"
   ]
 }
