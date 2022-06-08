@@ -29,13 +29,14 @@
   justify-content: center;
 }
 #sectionone .item2 {
+  max-width: 100%;
   padding-top: 3%;
   display: flex;
   animation: 5s anim-lineUp ease-in 1;
 }
 #sectionone .item2 p {
   color: var(--content);
-  max-width: 100%;
+
   line-height: 3;
   font-size: large;
 }
@@ -43,6 +44,6 @@
     font-size: x-large;
   } */
 #sectionone .item2 .img {
-  display: block;
   max-width: 100%;
+  display: block;
 }

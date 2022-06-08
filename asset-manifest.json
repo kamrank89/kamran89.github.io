@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/kamran89.github.io/static/css/main.e7720ab7.css",
-    "main.js": "/kamran89.github.io/static/js/main.5c49bfb7.js",
+    "main.js": "/kamran89.github.io/static/js/main.b03b2ae0.js",
     "static/media/Python.png": "/kamran89.github.io/static/media/Python.91b7f30f1c7af88174e0.png",
     "static/media/Office.png": "/kamran89.github.io/static/media/Office.a19974f8c575929060ca.png",
     "static/media/C++.png": "/kamran89.github.io/static/media/C++.9c8012aff0dd3bd2abae.png",
@@ -15,10 +15,10 @@
     "static/media/Githubtext.png": "/kamran89.github.io/static/media/Githubtext.6149aa5ccbc036755594.png",
     "index.html": "/kamran89.github.io/index.html",
     "main.e7720ab7.css.map": "/kamran89.github.io/static/css/main.e7720ab7.css.map",
-    "main.5c49bfb7.js.map": "/kamran89.github.io/static/js/main.5c49bfb7.js.map"
+    "main.b03b2ae0.js.map": "/kamran89.github.io/static/js/main.b03b2ae0.js.map"
   },
   "entrypoints": [
     "static/css/main.e7720ab7.css",
-    "static/js/main.5c49bfb7.js"
+    "static/js/main.b03b2ae0.js"
   ]
 }

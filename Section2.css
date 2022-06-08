@@ -15,7 +15,7 @@
   /* padding-bottom: 5%; */
   justify-content: center;
   max-width: 100%;
-
+  padding-bottom: 5%;
   margin-left: 2%;
 }
 #section2 h1 {
@@ -24,11 +24,13 @@
   padding-bottom: 5%;
 }
 
-#section2 .item1 .content {
+#section2 .content {
   text-align: center;
   font-size: x-large;
   padding-left: 2%;
+  padding-right: 2%;
   line-height: 4rem;
+  padding-top: 5%;
 }
 #section2 .item1 img {
   float: left;
@@ -42,11 +44,16 @@
   justify-content: center;
 }
 #section2 .item2 img {
+  float: right;
   border-radius: 50%;
 }
-#section2 .item2 .content {
-  text-align: center;
-  font-size: x-large;
-  padding-right: 2%;
-  line-height: 4rem;
+
+/* -------------------- Media ------------------- */
+@media screen and (max-width: 500px) {
+  #section2 .item2 {
+    display: block;
+  }
+  #section2 .item1 {
+    display: block;
+  }
 }

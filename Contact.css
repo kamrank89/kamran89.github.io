@@ -2,13 +2,13 @@
 .contact {
   color: var(--content);
   position: sticky;
-  top: 50%;
+  top: 40%;
 }
 
 .contact ul {
   list-style-type: none;
   margin: 0;
-  padding: 0;
+  padding: 10px 0 0;
   border: 2px solid var(--test);
   text-align: center;
   align-items: center;
