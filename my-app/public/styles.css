@@ -1,4 +1,5 @@
 @import "~bootstrap/scss/bootstrap.scss";
+@import url(./Carousel.css);
 @import "./Section1.css";
 @import url(./Section2.css);
 @import url(./Contact.css);

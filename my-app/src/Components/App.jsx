@@ -12,8 +12,8 @@ function App() {
       <SectionOne />
       <Education />
       <Skills />
-      {/* <Email /> */}
       <Projects />
+      <Email />
     </div>
   );
 }
