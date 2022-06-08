@@ -20,3 +20,15 @@
 .last-img {
   visibility: hidden;
 }
+
+/* -------------------- Media ------------------- */
+@media screen and (max-width: 500px) {
+  #section3 {
+    margin-right: 0;
+    margin-bottom: 0;
+    padding-bottom: 0;
+  }
+  #section3 .row {
+    padding-bottom: 0;
+  }
+}

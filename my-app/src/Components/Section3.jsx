@@ -70,9 +70,7 @@ const Skills = () => {
                 title="HTML and CSS"
               />
             </div>
-            <div class="col last-img">
-              <Card />
-            </div>
+            <div class="col last-img"></div>
           </div>
         </div>
       </div>

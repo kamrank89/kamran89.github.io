@@ -74,9 +74,11 @@ body {
 @media screen and (max-width: 500px) {
   #sectionone .item2 {
     display: block;
-    margin: 2%;
+    margin-right: 2%;
   }
   #sectionone .item2 .img {
-    max-width: 40%;
+  }
+  .app {
+    margin-right: 0;
   }
 }
