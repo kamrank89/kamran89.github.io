@@ -8,63 +8,70 @@ const Skills = () => {
         <p>Hover for more information</p>
       </div>
       <div className="item2">
-        <div class="container">
-          <div class="row g-4">
+        <div class="container overflow-hidden">
+          <div class="row gx-5 gy-5">
             <div class="col">
               <Card
+                link="https://github.com/kamrank89/Python-Game"
                 img={require("./Images/Python.png")}
-                title="Python Programming"
-                content="knwonig diffrent frame works Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Velit laoreet id donec ultrices. Feugiat pretium nibh ipsum consequat nisl vel. Dignissim convallis aenean et tortor at risus viverra adipiscing at. Senectus et netus et malesuada fames ac turpis. Parturient montes nascetur ridiculus mus. Vitae semper "
+                title="Python "
+                content="proficient in coding with python. familiar with OOP programing . "
+                content2="Frameworks/Libraries: Numpy, Pygame, Tkinter, Matplotlib, keras, MongoDB, etc."
               />
             </div>
-            <div class="col">
+            <div class="col ">
               <Card
                 img={require("./Images/Githubtext.png")}
-                content="knwonig diffrent frame works Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Velit laoreet id donec ultrices. Feugiat pretium nibh ipsum consequat nisl vel. Dignissim convallis aenean et tortor at risus viverra adipiscing at. Senectus et netus et malesuada fames ac turpis. Parturient montes nascetur ridiculus mus. Vitae semper "
+                content="Proficient using Github and version control ,both from GitHub desktop app and command line."
                 title="GitHub"
               />
             </div>
             <div class="col">
               <Card
                 img={require("./Images/C++.png")}
-                content="knwonig diffrent frame works Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Velit laoreet id donec ultrices. Feugiat pretium nibh ipsum consequat nisl vel. Dignissim convallis aenean et tortor at risus viverra adipiscing at. Senectus et netus et malesuada fames ac turpis. Parturient montes nascetur ridiculus mus. Vitae semper "
+                content="Proficient in coding with C++ (it is not my favorite programming language). Good undrestanding of OOP in C++."
                 title="C++"
               />
             </div>
             <div class="col">
               <Card
                 img={require("./Images/Office.png")}
-                content="knwonig diffrent frame works Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Velit laoreet id donec ultrices. Feugiat pretium nibh ipsum consequat nisl vel. Dignissim convallis aenean et tortor at risus viverra adipiscing at. Senectus et netus et malesuada fames ac turpis. Parturient montes nascetur ridiculus mus. Vitae semper "
+                content="I have been working with Micorsoft Office porgrams since 2008. Although Word was my most used application, I am proficient in PowerPoint, Excel, OneNote, OneDrive, OutLook, Teams "
                 title="Microsoft Office"
               />
             </div>
             <div class="col">
               <Card
                 img={require("./Images/Git.png")}
-                content="knwonig diffrent frame works Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Velit laoreet id donec ultrices. Feugiat pretium nibh ipsum consequat nisl vel. Dignissim convallis aenean et tortor at risus viverra adipiscing at. Senectus et netus et malesuada fames ac turpis. Parturient montes nascetur ridiculus mus. Vitae semper "
+                content="Proficient using Git and version control ,both from Git desktop applications such as smart git and command line."
                 title="Git"
               />
             </div>
             <div class="col">
               <Card
                 img={require("./Images/JS.png")}
-                content="knwonig diffrent frame works Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Velit laoreet id donec ultrices. Feugiat pretium nibh ipsum consequat nisl vel. Dignissim convallis aenean et tortor at risus viverra adipiscing at. Senectus et netus et malesuada fames ac turpis. Parturient montes nascetur ridiculus mus. Vitae semper "
+                content="JavaScript is my most favorite language. I can code in JavaScript for hours and am proficient in functional programming. I have coded and cloned websites like NetFlix, andstudio, etc. This portfolio website was written in JavaScript using React and Bootstrap."
                 title="JavaScript"
+                content2="Frameworks/Libraries: React, Node, Express, etc."
               />
             </div>
             <div class="col">
               <Card
                 img={require("./Images/Java.png")}
-                content="knwonig diffrent frame works Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Velit laoreet id donec ultrices. Feugiat pretium nibh ipsum consequat nisl vel. Dignissim convallis aenean et tortor at risus viverra adipiscing at. Senectus et netus et malesuada fames ac turpis. Parturient montes nascetur ridiculus mus. Vitae semper "
+                content="Proficient in coding with Java. Good undrestanding of OOP in Java and the ability to do unit tests in Java."
                 title="Java"
+                content2="Frameworks/libraries: Junit Test"
               />
             </div>
             <div class="col">
               <Card
                 img={require("./Images/htmlcss.png")}
-                content="knwonig diffrent frame works Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Velit laoreet id donec ultrices. Feugiat pretium nibh ipsum consequat nisl vel. Dignissim convallis aenean et tortor at risus viverra adipiscing at. Senectus et netus et malesuada fames ac turpis. Parturient montes nascetur ridiculus mus. Vitae semper "
+                content="Proficient in HTML and CSS . I am also the process of learning Sass to be able to make websites more efficiently."
                 title="HTML and CSS"
               />
+            </div>
+            <div class="col last-img">
+              <Card />
             </div>
           </div>
         </div>

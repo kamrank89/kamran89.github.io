@@ -38,7 +38,12 @@ const SectionOne = () => {
           </p>
         </div>
         <div className="item2 img">
-          <img src={require("./Images/kamran.jpg")} alt="can not be loaded" />
+          <img
+            src={require("./Images/kamran.jpg")}
+            height={400}
+            width={400}
+            alt="can not be loaded"
+          />
         </div>
       </div>
     </div>

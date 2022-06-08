@@ -17,3 +17,6 @@
 #section3 .item2 {
   justify-content: center;
 }
+.last-img {
+  visibility: hidden;
+}

@@ -24,16 +24,18 @@ const Education = () => {
       <h1 className="reveal">Education</h1>
       <div className="item1 reveal">
         <div>
-          <img
-            src={require("./Images/Acc.jpg")}
-            alt="not loaded"
-            height={300}
-            width={300}
-          />
+          <a href="https://www.austincc.edu/">
+            <img
+              src={require("./Images/Acc.jpg")}
+              alt="not loaded"
+              height={300}
+              width={300}
+            />
+          </a>
         </div>
         <div className="content">
           <p>
-            Sep 2018 to July 2020 <br />
+            From Sep 2018 to July 2020 <br />
             Studied general STEM courses
           </p>
         </div>
@@ -46,12 +48,14 @@ const Education = () => {
           </p>
         </div>
         <div>
-          <img
-            src={require("./Images/SNHU.png")}
-            alt=""
-            height={300}
-            width={300}
-          />
+          <a href="https://www.snhu.edu/">
+            <img
+              src={require("./Images/SNHU.png")}
+              alt=""
+              height={300}
+              width={300}
+            />
+          </a>
         </div>
       </div>
     </section>
